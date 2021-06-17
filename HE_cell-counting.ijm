@@ -1,3 +1,7 @@
+// This is a quick & dirty way to count cells in certain regions of an HE image
+// The parameters for the commands "Subtract Background", "Gaussian Blur" and "Find Maxima" may need optimization 
+// e.g. depending on image resolution, staining intensity or illumination times
+
 // Clean up before we start
 run("Close All");
 run("Clear Results");
